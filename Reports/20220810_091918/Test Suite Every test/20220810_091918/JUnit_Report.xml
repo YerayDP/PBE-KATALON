@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Every test" time="117.968" tests="4" failures="0" errors="0">
+   <testsuite name="Test Suite Every test" tests="4" failures="0" errors="0" time="117.968" skipped="0" timestamp="2022-08-10 09:19:22" hostname="practicante2 - localhost" id="Test Suites/Test Suite Every test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/practicante2/git/PBE-KATALON/Reports/20220810_091918/Test Suite Every test/20220810_091918"/>
+         <property name="logFiles" value="/Users/practicante2/git/PBE-KATALON/Reports/20220810_091918/Test Suite Every test/20220810_091918/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="practicante2 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 104.0.5112.79"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="41b0f28ab9cb088244f09b1cde465fb5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login2" time="11.855" classname="Test Cases/Login2" status="PASSED">
+         <system-out><![CDATA[2022-08-10 09:19:22 - [TEST_CASE][PASSED] - Test Cases/Login2: Test Cases/Login2
+
+2022-08-10 09:19:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-10 09:19:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-10 09:19:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-10 09:19:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-10 09:19:26 - [TEST_STEP][PASSED] - navigateToUrl("https://pbe-devs-at.4a-side.zone/"): Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:27 - [MESSAGE][PASSED] - Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Porsche/input_Name_username"), "porsche1"): Text 'porsche1' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:28 - [MESSAGE][PASSED] - Text 'porsche1' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Porsche/input_Password_password"), "I/nOddCPbI9O/y2tIGKjNw=="): Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Login")): Object: 'Object Repository/Page_Porsche/button_Login' is clicked on
+
+2022-08-10 09:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Login' is clicked on
+
+2022-08-10 09:19:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche - Worldwide/div_France")): Object: 'Object Repository/Page_Porsche - Worldwide/div_France' is clicked on
+
+2022-08-10 09:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche - Worldwide/div_France' is clicked on
+
+2022-08-10 09:19:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Porsche/select_M1                    M2            _7fab48"), "dealersView_v2.php?surveyOrder=3&fm=3&sm=4&idRegion=10", false): All options with value 'dealersView_v2.php?surveyOrder=3&fm=3&sm=4&idRegion=10' are selected in object 'Object Repository/Page_Porsche/select_M1                    M2            _7fab48' 
+
+2022-08-10 09:19:34 - [MESSAGE][PASSED] - All options with value 'dealersView_v2.php?surveyOrder=3&fm=3&sm=4&idRegion=10' are selected in object 'Object Repository/Page_Porsche/select_M1                    M2            _7fab48' 
+
+2022-08-10 09:19:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-10 09:19:34 - [MESSAGE][PASSED] - Browser is closed
+
+2022-08-10 09:19:34 - [TEST_STEP][PASSED] - comment("Mensaje de tipo mensaje"): Mensaje de tipo mensaje
+
+2022-08-10 09:19:34 - [MESSAGE][INFO] - Mensaje de tipo mensaje]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN" time="10.57" classname="Test Cases/LOGIN" status="PASSED">
+         <system-out><![CDATA[2022-08-10 09:19:34 - [TEST_CASE][PASSED] - Test Cases/LOGIN: Test Cases/LOGIN
+
+2022-08-10 09:19:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-10 09:19:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-10 09:19:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-10 09:19:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-10 09:19:36 - [TEST_STEP][PASSED] - navigateToUrl("https://pbe-devs-at.4a-side.zone/"): Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:37 - [MESSAGE][PASSED] - Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Porsche/input_Name_username"), "porsche1"): Text 'porsche1' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:38 - [MESSAGE][PASSED] - Text 'porsche1' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Porsche/input_Password_password"), "I/nOddCPbI9O/y2tIGKjNw=="): Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Login")): Object: 'Object Repository/Page_Porsche/button_Login' is clicked on
+
+2022-08-10 09:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Login' is clicked on
+
+2022-08-10 09:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche - Worldwide/div_Iberia")): Object: 'Object Repository/Page_Porsche - Worldwide/div_Iberia' is clicked on
+
+2022-08-10 09:19:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche - Worldwide/div_Iberia' is clicked on
+
+2022-08-10 09:19:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Porsche/select_M1                    M2            _7fab48"), "dealersView_v2.php?surveyOrder=7&fm=7&sm=8&idRegion=3", false): All options with value 'dealersView_v2.php?surveyOrder=7&fm=7&sm=8&idRegion=3' are selected in object 'Object Repository/Page_Porsche/select_M1                    M2            _7fab48' 
+
+2022-08-10 09:19:44 - [MESSAGE][PASSED] - All options with value 'dealersView_v2.php?surveyOrder=7&fm=7&sm=8&idRegion=3' are selected in object 'Object Repository/Page_Porsche/select_M1                    M2            _7fab48' 
+
+2022-08-10 09:19:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/a_CP Almeria (ES)")): Object: 'Object Repository/Page_Porsche/a_CP Almeria (ES)' is clicked on
+
+2022-08-10 09:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/a_CP Almeria (ES)' is clicked on
+
+2022-08-10 09:19:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-10 09:19:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/FAIL LOGIN" time="4.534" classname="Test Cases/FAIL LOGIN" status="PASSED">
+         <system-out><![CDATA[2022-08-10 09:19:45 - [TEST_CASE][PASSED] - Test Cases/FAIL LOGIN: Test Cases/FAIL LOGIN
+
+2022-08-10 09:19:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-10 09:19:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-10 09:19:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-10 09:19:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-10 09:19:47 - [TEST_STEP][PASSED] - navigateToUrl("https://pbe-devs-at.4a-side.zone/"): Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:48 - [MESSAGE][PASSED] - Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Porsche/input_Name_username"), "AAA"): Text 'AAA' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:49 - [MESSAGE][PASSED] - Text 'AAA' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Porsche/input_Password_password"), "wEva7LrijYI="): Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-10 09:19:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Survey 2" time="90.494" classname="Test Cases/Survey 2" status="PASSED">
+         <system-out><![CDATA[2022-08-10 09:19:49 - [TEST_CASE][PASSED] - Test Cases/Survey 2: Test Cases/Survey 2
+
+2022-08-10 09:19:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-10 09:19:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-10 09:19:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-10 09:19:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-10 09:19:52 - [TEST_STEP][PASSED] - navigateToUrl("https://pbe-devs-at.4a-side.zone/"): Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:52 - [MESSAGE][PASSED] - Navigate to 'https://pbe-devs-at.4a-side.zone/' successfully
+
+2022-08-10 09:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Porsche/input_Name_username"), "porsche1"): Text 'porsche1' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:53 - [MESSAGE][PASSED] - Text 'porsche1' is set on object 'Object Repository/Page_Porsche/input_Name_username'
+
+2022-08-10 09:19:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Porsche/input_Password_password"), "I/nOddCPbI9O/y2tIGKjNw=="): Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Porsche/input_Password_password'
+
+2022-08-10 09:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Porsche/button_Login")): Object: 'Object Repository/Page_Porsche/button_Login' is clicked on
+
+2022-08-10 09:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Login' is clicked on
+
+2022-08-10 09:19:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche - Worldwide/div_Iberia")): Object: 'Object Repository/Page_Porsche - Worldwide/div_Iberia' is clicked on
+
+2022-08-10 09:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche - Worldwide/div_Iberia' is clicked on
+
+2022-08-10 09:19:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/a_CP Almeria (ES)")): Object: 'Object Repository/Page_Porsche/a_CP Almeria (ES)' is clicked on
+
+2022-08-10 09:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/a_CP Almeria (ES)' is clicked on
+
+2022-08-10 09:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/a_Create. Future. Performance_back")): Object: 'Object Repository/Page_Porsche/a_Create. Future. Performance_back' is clicked on
+
+2022-08-10 09:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/a_Create. Future. Performance_back' is clicked on
+
+2022-08-10 09:19:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Porsche/select_M1                    M2            _7fab48"), "dealersView_v2.php?surveyOrder=7&fm=7&sm=8&idRegion=3", false): All options with value 'dealersView_v2.php?surveyOrder=7&fm=7&sm=8&idRegion=3' are selected in object 'Object Repository/Page_Porsche/select_M1                    M2            _7fab48' 
+
+2022-08-10 09:19:59 - [MESSAGE][PASSED] - All options with value 'dealersView_v2.php?surveyOrder=7&fm=7&sm=8&idRegion=3' are selected in object 'Object Repository/Page_Porsche/select_M1                    M2            _7fab48' 
+
+2022-08-10 09:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/a_CP Almeria (ES)_1")): Object: 'Object Repository/Page_Porsche/a_CP Almeria (ES)_1' is clicked on
+
+2022-08-10 09:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/a_CP Almeria (ES)_1' is clicked on
+
+2022-08-10 09:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/a_Survey n8")): Object: 'Object Repository/Page_Porsche/a_Survey n8' is clicked on
+
+2022-08-10 09:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/a_Survey n8' is clicked on
+
+2022-08-10 09:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Yes")): Object: 'Object Repository/Page_Porsche/button_Yes' is clicked on
+
+2022-08-10 09:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Yes' is clicked on
+
+2022-08-10 09:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Start Survey")): Object: 'Object Repository/Page_Porsche/button_Start Survey' is clicked on
+
+2022-08-10 09:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Start Survey' is clicked on
+
+2022-08-10 09:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next")): Object: 'Object Repository/Page_Porsche/button_Next' is clicked on
+
+2022-08-10 09:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next' is clicked on
+
+2022-08-10 09:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am proud to tell others that I am p_3ba5ad")): Object: 'Object Repository/Page_Porsche/input_I am proud to tell others that I am p_3ba5ad' is clicked on
+
+2022-08-10 09:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am proud to tell others that I am p_3ba5ad' is clicked on
+
+2022-08-10 09:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am happy to tell my friends that my_b5a2c2")): Object: 'Object Repository/Page_Porsche/input_I am happy to tell my friends that my_b5a2c2' is clicked on
+
+2022-08-10 09:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am happy to tell my friends that my_b5a2c2' is clicked on
+
+2022-08-10 09:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I care about the future of my Porsche_31650c")): Object: 'Object Repository/Page_Porsche/input_I care about the future of my Porsche_31650c' is clicked on
+
+2022-08-10 09:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I care about the future of my Porsche_31650c' is clicked on
+
+2022-08-10 09:20:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We share all relevant information wit_3f013d")): Object: 'Object Repository/Page_Porsche/input_We share all relevant information wit_3f013d' is clicked on
+
+2022-08-10 09:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We share all relevant information wit_3f013d' is clicked on
+
+2022-08-10 09:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We feel like one team_question-5")): Object: 'Object Repository/Page_Porsche/input_We feel like one team_question-5' is clicked on
+
+2022-08-10 09:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We feel like one team_question-5' is clicked on
+
+2022-08-10 09:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-6")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-6' is clicked on
+
+2022-08-10 09:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-6' is clicked on
+
+2022-08-10 09:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We feel adequately prepared for chang_b8e1ab")): Object: 'Object Repository/Page_Porsche/input_We feel adequately prepared for chang_b8e1ab' is clicked on
+
+2022-08-10 09:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We feel adequately prepared for chang_b8e1ab' is clicked on
+
+2022-08-10 09:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I rarely have to work overtime to fin_fea676")): Object: 'Object Repository/Page_Porsche/input_I rarely have to work overtime to fin_fea676' is clicked on
+
+2022-08-10 09:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I rarely have to work overtime to fin_fea676' is clicked on
+
+2022-08-10 09:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I believe I am given adequate time to_1aa1e1")): Object: 'Object Repository/Page_Porsche/input_I believe I am given adequate time to_1aa1e1' is clicked on
+
+2022-08-10 09:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I believe I am given adequate time to_1aa1e1' is clicked on
+
+2022-08-10 09:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I think the jobs at my Centre are sec_87abd1")): Object: 'Object Repository/Page_Porsche/input_I think the jobs at my Centre are sec_87abd1' is clicked on
+
+2022-08-10 09:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I think the jobs at my Centre are sec_87abd1' is clicked on
+
+2022-08-10 09:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_In my opinion, the future of Porsche _b98d5e")): Object: 'Object Repository/Page_Porsche/input_In my opinion, the future of Porsche _b98d5e' is clicked on
+
+2022-08-10 09:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_In my opinion, the future of Porsche _b98d5e' is clicked on
+
+2022-08-10 09:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_In my opinion, the future of my Porsc_5ae24a")): Object: 'Object Repository/Page_Porsche/input_In my opinion, the future of my Porsc_5ae24a' is clicked on
+
+2022-08-10 09:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_In my opinion, the future of my Porsc_5ae24a' is clicked on
+
+2022-08-10 09:20:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-13")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-13' is clicked on
+
+2022-08-10 09:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-13' is clicked on
+
+2022-08-10 09:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-14")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-14' is clicked on
+
+2022-08-10 09:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-14' is clicked on
+
+2022-08-10 09:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_A positive customer experience is abs_1f69ed")): Object: 'Object Repository/Page_Porsche/input_A positive customer experience is abs_1f69ed' is clicked on
+
+2022-08-10 09:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_A positive customer experience is abs_1f69ed' is clicked on
+
+2022-08-10 09:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-16")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-16' is clicked on
+
+2022-08-10 09:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-16' is clicked on
+
+2022-08-10 09:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know what I can personally do to pr_48b91e")): Object: 'Object Repository/Page_Porsche/input_I know what I can personally do to pr_48b91e' is clicked on
+
+2022-08-10 09:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know what I can personally do to pr_48b91e' is clicked on
+
+2022-08-10 09:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/tbody_The customers experience in our Porsc_1e6a57")): Object: 'Object Repository/Page_Porsche/tbody_The customers experience in our Porsc_1e6a57' is clicked on
+
+2022-08-10 09:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/tbody_The customers experience in our Porsc_1e6a57' is clicked on
+
+2022-08-10 09:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I have all the skills to provide an o_fac89a")): Object: 'Object Repository/Page_Porsche/input_I have all the skills to provide an o_fac89a' is clicked on
+
+2022-08-10 09:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I have all the skills to provide an o_fac89a' is clicked on
+
+2022-08-10 09:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I have already received  will soon re_c58378")): Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_c58378' is clicked on
+
+2022-08-10 09:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_c58378' is clicked on
+
+2022-08-10 09:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We are very good at listening to cust_4b87c8")): Object: 'Object Repository/Page_Porsche/input_We are very good at listening to cust_4b87c8' is clicked on
+
+2022-08-10 09:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We are very good at listening to cust_4b87c8' is clicked on
+
+2022-08-10 09:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We are regularly utilizing customer f_e25e7c")): Object: 'Object Repository/Page_Porsche/input_We are regularly utilizing customer f_e25e7c' is clicked on
+
+2022-08-10 09:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We are regularly utilizing customer f_e25e7c' is clicked on
+
+2022-08-10 09:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Our customers satisfaction is assesse_49b574")): Object: 'Object Repository/Page_Porsche/input_Our customers satisfaction is assesse_49b574' is clicked on
+
+2022-08-10 09:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Our customers satisfaction is assesse_49b574' is clicked on
+
+2022-08-10 09:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_At my Porsche Centre, customers that _835337")): Object: 'Object Repository/Page_Porsche/input_At my Porsche Centre, customers that _835337' is clicked on
+
+2022-08-10 09:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_At my Porsche Centre, customers that _835337' is clicked on
+
+2022-08-10 09:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know that I will need training to c_4af62a")): Object: 'Object Repository/Page_Porsche/input_I know that I will need training to c_4af62a' is clicked on
+
+2022-08-10 09:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know that I will need training to c_4af62a' is clicked on
+
+2022-08-10 09:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_It is important for me to upskill as _cbc4e4")): Object: 'Object Repository/Page_Porsche/input_It is important for me to upskill as _cbc4e4' is clicked on
+
+2022-08-10 09:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_It is important for me to upskill as _cbc4e4' is clicked on
+
+2022-08-10 09:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am provided with all the training I_5665d5")): Object: 'Object Repository/Page_Porsche/input_I am provided with all the training I_5665d5' is clicked on
+
+2022-08-10 09:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am provided with all the training I_5665d5' is clicked on
+
+2022-08-10 09:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_The Porsche Academy gives me all the _aef28b")): Object: 'Object Repository/Page_Porsche/input_The Porsche Academy gives me all the _aef28b' is clicked on
+
+2022-08-10 09:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_The Porsche Academy gives me all the _aef28b' is clicked on
+
+2022-08-10 09:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-28")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-28' is clicked on
+
+2022-08-10 09:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-28' is clicked on
+
+2022-08-10 09:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_The product related trainings I recei_9fe221")): Object: 'Object Repository/Page_Porsche/input_The product related trainings I recei_9fe221' is clicked on
+
+2022-08-10 09:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_The product related trainings I recei_9fe221' is clicked on
+
+2022-08-10 09:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-30")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-30' is clicked on
+
+2022-08-10 09:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-30' is clicked on
+
+2022-08-10 09:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am very satisfied with the virtual _50a490")): Object: 'Object Repository/Page_Porsche/input_I am very satisfied with the virtual _50a490' is clicked on
+
+2022-08-10 09:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am very satisfied with the virtual _50a490' is clicked on
+
+2022-08-10 09:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am happy about the development towa_704fcd")): Object: 'Object Repository/Page_Porsche/input_I am happy about the development towa_704fcd' is clicked on
+
+2022-08-10 09:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am happy about the development towa_704fcd' is clicked on
+
+2022-08-10 09:20:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I believe the Porsche CI update is be_3612fd")): Object: 'Object Repository/Page_Porsche/input_I believe the Porsche CI update is be_3612fd' is clicked on
+
+2022-08-10 09:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I believe the Porsche CI update is be_3612fd' is clicked on
+
+2022-08-10 09:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-34")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-34' is clicked on
+
+2022-08-10 09:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-34' is clicked on
+
+2022-08-10 09:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I believe that the way we work as a t_22016c")): Object: 'Object Repository/Page_Porsche/input_I believe that the way we work as a t_22016c' is clicked on
+
+2022-08-10 09:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I believe that the way we work as a t_22016c' is clicked on
+
+2022-08-10 09:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am curious about the positive impac_b0e3c4")): Object: 'Object Repository/Page_Porsche/input_I am curious about the positive impac_b0e3c4' is clicked on
+
+2022-08-10 09:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am curious about the positive impac_b0e3c4' is clicked on
+
+2022-08-10 09:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-37")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-37' is clicked on
+
+2022-08-10 09:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-37' is clicked on
+
+2022-08-10 09:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_The way in which the information abou_4cc0e8")): Object: 'Object Repository/Page_Porsche/input_The way in which the information abou_4cc0e8' is clicked on
+
+2022-08-10 09:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_The way in which the information abou_4cc0e8' is clicked on
+
+2022-08-10 09:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am well informed about the progress_9db7e1")): Object: 'Object Repository/Page_Porsche/input_I am well informed about the progress_9db7e1' is clicked on
+
+2022-08-10 09:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am well informed about the progress_9db7e1' is clicked on
+
+2022-08-10 09:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I need training measures for successf_9ec7b4")): Object: 'Object Repository/Page_Porsche/input_I need training measures for successf_9ec7b4' is clicked on
+
+2022-08-10 09:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I need training measures for successf_9ec7b4' is clicked on
+
+2022-08-10 09:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I have already received  will soon re_ec62c7")): Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_ec62c7' is clicked on
+
+2022-08-10 09:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_ec62c7' is clicked on
+
+2022-08-10 09:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am well prepared to continue comple_dce9d7")): Object: 'Object Repository/Page_Porsche/input_I am well prepared to continue comple_dce9d7' is clicked on
+
+2022-08-10 09:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am well prepared to continue comple_dce9d7' is clicked on
+
+2022-08-10 09:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_My daily work has been positively inf_406b19")): Object: 'Object Repository/Page_Porsche/input_My daily work has been positively inf_406b19' is clicked on
+
+2022-08-10 09:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_My daily work has been positively inf_406b19' is clicked on
+
+2022-08-10 09:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_The way we work as a team has positiv_6566a3")): Object: 'Object Repository/Page_Porsche/input_The way we work as a team has positiv_6566a3' is clicked on
+
+2022-08-10 09:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_The way we work as a team has positiv_6566a3' is clicked on
+
+2022-08-10 09:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-45")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-45' is clicked on
+
+2022-08-10 09:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-45' is clicked on
+
+2022-08-10 09:20:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-46")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-46' is clicked on
+
+2022-08-10 09:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-46' is clicked on
+
+2022-08-10 09:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_All in all, implementing the CI Updat_00186d")): Object: 'Object Repository/Page_Porsche/input_All in all, implementing the CI Updat_00186d' is clicked on
+
+2022-08-10 09:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_All in all, implementing the CI Updat_00186d' is clicked on
+
+2022-08-10 09:20:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I believe that online vehicle sales a_b52a51")): Object: 'Object Repository/Page_Porsche/input_I believe that online vehicle sales a_b52a51' is clicked on
+
+2022-08-10 09:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I believe that online vehicle sales a_b52a51' is clicked on
+
+2022-08-10 09:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I believe that the introduction of on_9d481f")): Object: 'Object Repository/Page_Porsche/input_I believe that the introduction of on_9d481f' is clicked on
+
+2022-08-10 09:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I believe that the introduction of on_9d481f' is clicked on
+
+2022-08-10 09:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-50")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-50' is clicked on
+
+2022-08-10 09:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-50' is clicked on
+
+2022-08-10 09:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We have to implement online vehicle s_26c77a")): Object: 'Object Repository/Page_Porsche/input_We have to implement online vehicle s_26c77a' is clicked on
+
+2022-08-10 09:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We have to implement online vehicle s_26c77a' is clicked on
+
+2022-08-10 09:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am comfortable that the Porsche bra_cc3767")): Object: 'Object Repository/Page_Porsche/input_I am comfortable that the Porsche bra_cc3767' is clicked on
+
+2022-08-10 09:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am comfortable that the Porsche bra_cc3767' is clicked on
+
+2022-08-10 09:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-53")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-53' is clicked on
+
+2022-08-10 09:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-53' is clicked on
+
+2022-08-10 09:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-54")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-54' is clicked on
+
+2022-08-10 09:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-54' is clicked on
+
+2022-08-10 09:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-55")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-55' is clicked on
+
+2022-08-10 09:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-55' is clicked on
+
+2022-08-10 09:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_We have to implement these new job ro_529000")): Object: 'Object Repository/Page_Porsche/input_We have to implement these new job ro_529000' is clicked on
+
+2022-08-10 09:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_We have to implement these new job ro_529000' is clicked on
+
+2022-08-10 09:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_At my Porsche Centre, all employees h_71d8e6")): Object: 'Object Repository/Page_Porsche/input_At my Porsche Centre, all employees h_71d8e6' is clicked on
+
+2022-08-10 09:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_At my Porsche Centre, all employees h_71d8e6' is clicked on
+
+2022-08-10 09:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-58")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-58' is clicked on
+
+2022-08-10 09:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-58' is clicked on
+
+2022-08-10 09:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_My job role  job roles correspond 100_cc6e15")): Object: 'Object Repository/Page_Porsche/input_My job role  job roles correspond 100_cc6e15' is clicked on
+
+2022-08-10 09:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_My job role  job roles correspond 100_cc6e15' is clicked on
+
+2022-08-10 09:20:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know the responsibilities of all ne_aada54")): Object: 'Object Repository/Page_Porsche/input_I know the responsibilities of all ne_aada54' is clicked on
+
+2022-08-10 09:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know the responsibilities of all ne_aada54' is clicked on
+
+2022-08-10 09:20:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-61")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-61' is clicked on
+
+2022-08-10 09:20:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-61' is clicked on
+
+2022-08-10 09:20:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I need training measures to successfu_a8276f")): Object: 'Object Repository/Page_Porsche/input_I need training measures to successfu_a8276f' is clicked on
+
+2022-08-10 09:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I need training measures to successfu_a8276f' is clicked on
+
+2022-08-10 09:20:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I have already received  will soon re_20fefe")): Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_20fefe' is clicked on
+
+2022-08-10 09:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_20fefe' is clicked on
+
+2022-08-10 09:20:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am provided with all resources nece_6466aa")): Object: 'Object Repository/Page_Porsche/input_I am provided with all resources nece_6466aa' is clicked on
+
+2022-08-10 09:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am provided with all resources nece_6466aa' is clicked on
+
+2022-08-10 09:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-65")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-65' is clicked on
+
+2022-08-10 09:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-65' is clicked on
+
+2022-08-10 09:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_In my opinion, E-Performance embodies_9e0982")): Object: 'Object Repository/Page_Porsche/input_In my opinion, E-Performance embodies_9e0982' is clicked on
+
+2022-08-10 09:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_In my opinion, E-Performance embodies_9e0982' is clicked on
+
+2022-08-10 09:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_In our Porsche Centre, everyone is en_87f154")): Object: 'Object Repository/Page_Porsche/input_In our Porsche Centre, everyone is en_87f154' is clicked on
+
+2022-08-10 09:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_In our Porsche Centre, everyone is en_87f154' is clicked on
+
+2022-08-10 09:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I see the opportunities that E-Perfor_02a949")): Object: 'Object Repository/Page_Porsche/input_I see the opportunities that E-Perfor_02a949' is clicked on
+
+2022-08-10 09:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I see the opportunities that E-Perfor_02a949' is clicked on
+
+2022-08-10 09:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Our management team inspires with the_34b404")): Object: 'Object Repository/Page_Porsche/input_Our management team inspires with the_34b404' is clicked on
+
+2022-08-10 09:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Our management team inspires with the_34b404' is clicked on
+
+2022-08-10 09:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I have all the necessary knowledge an_607d32")): Object: 'Object Repository/Page_Porsche/input_I have all the necessary knowledge an_607d32' is clicked on
+
+2022-08-10 09:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I have all the necessary knowledge an_607d32' is clicked on
+
+2022-08-10 09:20:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I have already received  will soon re_dce2c7")): Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_dce2c7' is clicked on
+
+2022-08-10 09:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I have already received  will soon re_dce2c7' is clicked on
+
+2022-08-10 09:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I feel very confident discussing E-Pe_59df44")): Object: 'Object Repository/Page_Porsche/input_I feel very confident discussing E-Pe_59df44' is clicked on
+
+2022-08-10 09:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I feel very confident discussing E-Pe_59df44' is clicked on
+
+2022-08-10 09:20:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know the local charging infrastruct_e83135")): Object: 'Object Repository/Page_Porsche/input_I know the local charging infrastruct_e83135' is clicked on
+
+2022-08-10 09:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know the local charging infrastruct_e83135' is clicked on
+
+2022-08-10 09:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_In my Porsche Centre, we have defined_622ed4")): Object: 'Object Repository/Page_Porsche/input_In my Porsche Centre, we have defined_622ed4' is clicked on
+
+2022-08-10 09:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_In my Porsche Centre, we have defined_622ed4' is clicked on
+
+2022-08-10 09:20:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-75")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-75' is clicked on
+
+2022-08-10 09:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-75' is clicked on
+
+2022-08-10 09:20:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_concat(I actively promote our Porsche_ae8f78")): Object: 'Object Repository/Page_Porsche/input_concat(I actively promote our Porsche_ae8f78' is clicked on
+
+2022-08-10 09:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_concat(I actively promote our Porsche_ae8f78' is clicked on
+
+2022-08-10 09:20:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-77")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-77' is clicked on
+
+2022-08-10 09:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-77' is clicked on
+
+2022-08-10 09:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am aware of the contents and goals _d525b8")): Object: 'Object Repository/Page_Porsche/input_I am aware of the contents and goals _d525b8' is clicked on
+
+2022-08-10 09:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am aware of the contents and goals _d525b8' is clicked on
+
+2022-08-10 09:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know how I can personally contribut_3ae1bf")): Object: 'Object Repository/Page_Porsche/input_I know how I can personally contribut_3ae1bf' is clicked on
+
+2022-08-10 09:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know how I can personally contribut_3ae1bf' is clicked on
+
+2022-08-10 09:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-80")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-80' is clicked on
+
+2022-08-10 09:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-80' is clicked on
+
+2022-08-10 09:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am well informed about the contents_e03153")): Object: 'Object Repository/Page_Porsche/input_I am well informed about the contents_e03153' is clicked on
+
+2022-08-10 09:20:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am well informed about the contents_e03153' is clicked on
+
+2022-08-10 09:20:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I believe that our local strategy is _a98956")): Object: 'Object Repository/Page_Porsche/input_I believe that our local strategy is _a98956' is clicked on
+
+2022-08-10 09:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I believe that our local strategy is _a98956' is clicked on
+
+2022-08-10 09:21:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am aware of the upcoming Porsche br_91ddf4")): Object: 'Object Repository/Page_Porsche/input_I am aware of the upcoming Porsche br_91ddf4' is clicked on
+
+2022-08-10 09:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am aware of the upcoming Porsche br_91ddf4' is clicked on
+
+2022-08-10 09:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know about the contents and goals o_6572f2")): Object: 'Object Repository/Page_Porsche/input_I know about the contents and goals o_6572f2' is clicked on
+
+2022-08-10 09:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know about the contents and goals o_6572f2' is clicked on
+
+2022-08-10 09:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I know how I can personally contribut_9b952f")): Object: 'Object Repository/Page_Porsche/input_I know how I can personally contribut_9b952f' is clicked on
+
+2022-08-10 09:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I know how I can personally contribut_9b952f' is clicked on
+
+2022-08-10 09:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am curious about the positive impac_7773e9")): Object: 'Object Repository/Page_Porsche/input_I am curious about the positive impac_7773e9' is clicked on
+
+2022-08-10 09:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am curious about the positive impac_7773e9' is clicked on
+
+2022-08-10 09:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_I am not concerned about the changes _e2bb80")): Object: 'Object Repository/Page_Porsche/input_I am not concerned about the changes _e2bb80' is clicked on
+
+2022-08-10 09:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_I am not concerned about the changes _e2bb80' is clicked on
+
+2022-08-10 09:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-88")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-88' is clicked on
+
+2022-08-10 09:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-88' is clicked on
+
+2022-08-10 09:21:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-89")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-89' is clicked on
+
+2022-08-10 09:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-89' is clicked on
+
+2022-08-10 09:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-90")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-90' is clicked on
+
+2022-08-10 09:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-90' is clicked on
+
+2022-08-10 09:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Strongly agree_question-91")): Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-91' is clicked on
+
+2022-08-10 09:21:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Strongly agree_question-91' is clicked on
+
+2022-08-10 09:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Service Department_department-92")): Object: 'Object Repository/Page_Porsche/input_Service Department_department-92' is clicked on
+
+2022-08-10 09:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Service Department_department-92' is clicked on
+
+2022-08-10 09:21:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Workshop_question-93-department-1")): Object: 'Object Repository/Page_Porsche/input_Workshop_question-93-department-1' is clicked on
+
+2022-08-10 09:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Workshop_question-93-department-1' is clicked on
+
+2022-08-10 09:21:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Service Department_question-93-department-2")): Object: 'Object Repository/Page_Porsche/input_Service Department_question-93-department-2' is clicked on
+
+2022-08-10 09:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Service Department_question-93-department-2' is clicked on
+
+2022-08-10 09:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Sales department_question-93-department-4")): Object: 'Object Repository/Page_Porsche/input_Sales department_question-93-department-4' is clicked on
+
+2022-08-10 09:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Sales department_question-93-department-4' is clicked on
+
+2022-08-10 09:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/td_3  three times a week and more frequently")): Object: 'Object Repository/Page_Porsche/td_3  three times a week and more frequently' is clicked on
+
+2022-08-10 09:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/td_3  three times a week and more frequently' is clicked on
+
+2022-08-10 09:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Workshop_question-94-department-1")): Object: 'Object Repository/Page_Porsche/input_Workshop_question-94-department-1' is clicked on
+
+2022-08-10 09:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Workshop_question-94-department-1' is clicked on
+
+2022-08-10 09:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/td_1  very dissatisfied")): Object: 'Object Repository/Page_Porsche/td_1  very dissatisfied' is clicked on
+
+2022-08-10 09:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/td_1  very dissatisfied' is clicked on
+
+2022-08-10 09:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/td_2  satisfied")): Object: 'Object Repository/Page_Porsche/td_2  satisfied' is clicked on
+
+2022-08-10 09:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/td_2  satisfied' is clicked on
+
+2022-08-10 09:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Sales department_question-94-department-4")): Object: 'Object Repository/Page_Porsche/input_Sales department_question-94-department-4' is clicked on
+
+2022-08-10 09:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Sales department_question-94-department-4' is clicked on
+
+2022-08-10 09:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_Administration_question-94-department-5")): Object: 'Object Repository/Page_Porsche/input_Administration_question-94-department-5' is clicked on
+
+2022-08-10 09:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_Administration_question-94-department-5' is clicked on
+
+2022-08-10 09:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Next_1")): Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Next_1' is clicked on
+
+2022-08-10 09:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_SQ 1_specific-81")): Object: 'Object Repository/Page_Porsche/input_SQ 1_specific-81' is clicked on
+
+2022-08-10 09:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_SQ 1_specific-81' is clicked on
+
+2022-08-10 09:21:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_SQ 2_specific-82")): Object: 'Object Repository/Page_Porsche/input_SQ 2_specific-82' is clicked on
+
+2022-08-10 09:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_SQ 2_specific-82' is clicked on
+
+2022-08-10 09:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_SQ 3_specific-83")): Object: 'Object Repository/Page_Porsche/input_SQ 3_specific-83' is clicked on
+
+2022-08-10 09:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_SQ 3_specific-83' is clicked on
+
+2022-08-10 09:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_SQ 4_specific-84")): Object: 'Object Repository/Page_Porsche/input_SQ 4_specific-84' is clicked on
+
+2022-08-10 09:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_SQ 4_specific-84' is clicked on
+
+2022-08-10 09:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/input_SQ 5_specific-85")): Object: 'Object Repository/Page_Porsche/input_SQ 5_specific-85' is clicked on
+
+2022-08-10 09:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/input_SQ 5_specific-85' is clicked on
+
+2022-08-10 09:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Porsche/button_Send")): Object: 'Object Repository/Page_Porsche/button_Send' is clicked on
+
+2022-08-10 09:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Porsche/button_Send' is clicked on
+
+2022-08-10 09:21:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-10 09:21:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-10 09:19:22 - [TEST_SUITE][PASSED] - Test Suite Every test: Test Cases/Survey 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

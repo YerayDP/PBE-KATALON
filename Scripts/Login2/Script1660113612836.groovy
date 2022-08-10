@@ -34,3 +34,5 @@ WebUI.selectOptionByValue(findTestObject('Page_Porsche/select_M1                
 
 WebUI.closeBrowser()
 
+WebUI.comment('Mensaje de tipo mensaje')
+

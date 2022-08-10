@@ -6,12 +6,12 @@
    <elementGuidId>1ad52e6c-24e0-4aa3-b77d-969d4e0dd7c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='selectSurveyModel']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#selectSurveyModel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='selectSurveyModel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>b093fe8a-12a1-45bb-9450-3f57d55fe0ef</webElementGuid>
+      <webElementGuid>85f668e0-21de-4deb-b875-0c7de1d4b62a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>languages</value>
-      <webElementGuid>97bebbe3-b287-4fe7-a086-00646f9667af</webElementGuid>
+      <webElementGuid>4bc7d729-baa6-41b4-97ae-04dd060e4c93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>selectSurveyModel</value>
-      <webElementGuid>16dd7b57-0d57-4dd9-a739-05573082bb80</webElementGuid>
+      <webElementGuid>4bba510f-242b-4ad3-a90f-b374a4bca76e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
                                             M7
                         M8
                                     </value>
-      <webElementGuid>cce715b7-630e-4a84-9dfd-2a65a2407629</webElementGuid>
+      <webElementGuid>d60bd3c4-aa02-4819-9de3-93a8b82288a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;selectSurveyModel&quot;)</value>
-      <webElementGuid>179d1779-d63e-4e65-b47e-41b8c119b216</webElementGuid>
+      <webElementGuid>4e7e5488-0c15-4bac-b723-77cf41dad72d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='selectSurveyModel']</value>
-      <webElementGuid>a43c1b3c-e08d-4a96-ad64-7c5b97b8593f</webElementGuid>
+      <webElementGuid>06c48eaa-44e3-4c65-aa36-0f1b067ca504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create. Future. Performance.'])[1]/following::select[1]</value>
-      <webElementGuid>75ddf028-fa4a-4c60-825a-efa80ecc7990</webElementGuid>
+      <webElementGuid>a56e88b5-5f8d-4499-be3b-95b58f8d71c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Porsche Business Excellence'])[1]/following::select[1]</value>
-      <webElementGuid>d612567c-878d-4305-9ae1-1a12061406c4</webElementGuid>
+      <webElementGuid>556be157-9357-49c6-9591-4f969eef3a6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by:'])[1]/preceding::select[1]</value>
-      <webElementGuid>3ca55e30-0924-46bf-b855-c2d96790a218</webElementGuid>
+      <webElementGuid>ec2578d9-0092-4fd6-ae24-d5dc420e7cc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::select[1]</value>
-      <webElementGuid>69fa13c6-82dc-4f93-b535-20c1b94abf1b</webElementGuid>
+      <webElementGuid>03eb6f6c-da5a-4a2d-842d-fb44163402bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>fe75bd88-8a95-44f4-b7e1-792bbcdba627</webElementGuid>
+      <webElementGuid>cfeab446-e43a-4019-837b-38a7469b3cbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
                                             M7
                         M8
                                     ')]</value>
-      <webElementGuid>3a43d2dc-d164-4d5c-ac77-96d437ac2051</webElementGuid>
+      <webElementGuid>458df909-e121-4d57-ae15-986184afa46d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

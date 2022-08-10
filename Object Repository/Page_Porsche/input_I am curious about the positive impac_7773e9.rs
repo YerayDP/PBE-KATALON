@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Name_username</name>
+   <name>input_I am curious about the positive impac_7773e9</name>
    <tag></tag>
-   <elementGuidId>043d4005-3763-4d73-a682-c922d3160e07</elementGuidId>
+   <elementGuidId>29176117-4f5a-45df-82be-43323fd1abd0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#username</value>
+         <value>input[name=&quot;question-86&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//input[@name='question-86']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f6bc8223-b421-4cc4-9218-fe70fc099ad1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>username</value>
-      <webElementGuid>2d43e2f9-a9df-4da7-af19-9ff3104e0474</webElementGuid>
+      <webElementGuid>2bb56256-004b-4091-b5d2-7f0e9d6eda54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>eb0ae99b-928e-421f-be11-ea7fac26bfb9</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>20fee918-8758-44a4-a9a3-98b0e20127f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>4a9d3d95-67c7-4ef6-b5f9-173ae9c88133</webElementGuid>
+      <value>question-86</value>
+      <webElementGuid>b3d9795f-8583-4ac5-bd76-0a473f2c6158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>4210ddc2-62f5-48cb-9aed-9068e4a7a872</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;username&quot;)</value>
-      <webElementGuid>08f433f7-232e-4406-8fa3-1d693637a17d</webElementGuid>
+      <value>id(&quot;limesurvey&quot;)/div[@id=&quot;group-3&quot;]/div[@class=&quot;group-container  space-col&quot;]/div[@id=&quot;question879&quot;]/div[@class=&quot;answer-container col-xs-12&quot;]/table[@class=&quot;ls-answers subquestion-list questions-list radio-array table table-bordered table-hover table-array-radio&quot;]/tbody[1]/tr[@class=&quot;pbe-question answers-list radio-list ls-even&quot;]/td[@class=&quot;answer_cell_1 answer-item radio-item&quot;]/input[1]</value>
+      <webElementGuid>1be92acf-48ea-447c-a5e0-ed0991687600</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='username']</value>
-      <webElementGuid>9698cd82-5b12-41ab-83bf-431150674e8e</webElementGuid>
+      <value>//input[@name='question-86']</value>
+      <webElementGuid>16f89379-68d1-46e5-b808-e75c46041fe4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='table_login_with_message_down']/tbody/tr[2]/td/input</value>
-      <webElementGuid>e2a36487-e0cd-4332-86bc-4edfbd540c39</webElementGuid>
+      <value>//div[@id='question879']/div[2]/table/tbody/tr[4]/td/input</value>
+      <webElementGuid>76a4a461-e6ac-4425-8389-5b57240cf455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>9822836c-46f5-4ed5-b31b-23b72a26a3d7</webElementGuid>
+      <value>//tr[4]/td/input</value>
+      <webElementGuid>001f5730-f1b8-459e-8630-c6f724c17d1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'username' and @type = 'text' and @name = 'username']</value>
-      <webElementGuid>53bfcf35-fbcd-440c-b6ff-eba5d9e369c1</webElementGuid>
+      <value>//input[@type = 'radio' and @name = 'question-86']</value>
+      <webElementGuid>0603abba-e783-4f99-9088-c66045587059</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

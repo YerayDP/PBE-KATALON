@@ -6,12 +6,12 @@
    <elementGuidId>d4c8364a-1976-4dcd-81ef-78ffe110afdc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='highcharts-0']/div/div/div/div[11]/span/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='highcharts-0']/div/div/div/div[11]/span/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f42c8742-b21a-48a8-b03f-b512ecd80823</webElementGuid>
+      <webElementGuid>8ffecbe4-9a49-46be-89a7-dd84d47692ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>legendmap-name</value>
-      <webElementGuid>e1cdee8e-bc60-46cd-ba57-a02135674f46</webElementGuid>
+      <webElementGuid>885eeee5-0519-47a7-880d-9cc62d64fb50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Iberia</value>
-      <webElementGuid>735012e7-eea7-4212-9658-9ff515580a04</webElementGuid>
+      <webElementGuid>ede5afd9-ef13-4634-b9de-75b02ebb4eb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;highcharts-0&quot;)/div[@class=&quot;highcharts-legend&quot;]/div[1]/div[1]/div[@class=&quot;highcharts-legend-item&quot;]/span[1]/div[@class=&quot;legendmap-item&quot;]/div[@class=&quot;legendmap-name&quot;]</value>
-      <webElementGuid>ad5e58b8-475f-4eea-89ab-9770a34b5f17</webElementGuid>
+      <webElementGuid>9dad453d-eeb1-4ae2-85b5-72dfc9a0d86c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='highcharts-0']/div/div/div/div[11]/span/div/div</value>
-      <webElementGuid>026bdfb9-2d82-4c17-8c35-8e567aaa98e0</webElementGuid>
+      <webElementGuid>58aaf724-5000-4b57-b011-c1d1cf0f6c4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='M1-M2:'])[5]/following::div[3]</value>
-      <webElementGuid>89688d18-f09d-47a1-94dc-b815c8f76867</webElementGuid>
+      <webElementGuid>ab7ab360-fac4-4f44-bf6e-01b36f9a5913</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='M3-M4:'])[6]/preceding::div[1]</value>
-      <webElementGuid>4cdda81d-fe9c-4d02-b9de-4ce109041000</webElementGuid>
+      <webElementGuid>93cb1e5c-b7c2-429f-ba0d-5c3100410494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='M5-M6:'])[2]/preceding::div[1]</value>
-      <webElementGuid>8fd1737c-876f-41ff-a7c7-62e32c66879a</webElementGuid>
+      <webElementGuid>5ef97ac9-4519-48f8-82fb-07bf4720ed0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/span/div/div</value>
-      <webElementGuid>72318c0a-7acc-4267-a0a0-8ae1994314b7</webElementGuid>
+      <webElementGuid>900f6c41-220e-4e55-8495-d2fdc9d644ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Iberia' or . = ' Iberia')]</value>
-      <webElementGuid>d58899c4-3cc6-4e00-b9fa-1971335a6b49</webElementGuid>
+      <webElementGuid>ab7587fb-b219-47f9-8364-cbf58a50e73d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

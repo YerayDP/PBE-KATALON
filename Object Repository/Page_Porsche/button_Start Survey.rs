@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Start Survey</name>
+   <tag></tag>
+   <elementGuidId>c09930fe-f500-406f-a47a-65303f3d93ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#startSurvey</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='startSurvey']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d609094b-88df-4d87-a9ad-028fc6ce2d82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>startSurvey</value>
+      <webElementGuid>e3562421-5072-43c1-80cd-f99236a5ea8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>startSurvey</value>
+      <webElementGuid>38e263d2-b541-41ff-9137-0d2d872b220a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ls-move-btn ls-move-next-btn ls-move-submit-btn action--ls-button-submit btn btn-lg btn-primary</value>
+      <webElementGuid>b8565a49-44ea-486c-9f6f-d9cdc2dbac64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>startsurveyredirect();</value>
+      <webElementGuid>33a4edb4-b415-4983-a0ae-c45f3eb37900</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                Start Survey</value>
+      <webElementGuid>d4f7fef4-75d9-4305-9f70-bd4323b72bac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;startSurvey&quot;)</value>
+      <webElementGuid>f6564852-c72d-42b4-8825-5d5ed5916bdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='startSurvey']</value>
+      <webElementGuid>293ba981-76bc-4ff4-95d0-a9e284cc40d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create. Future. Performance.'])[1]/following::button[1]</value>
+      <webElementGuid>e04827ce-95ed-42e4-8f6f-94761a1e6817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Porsche Business Excellence'])[1]/following::button[1]</value>
+      <webElementGuid>5906dc66-e2c3-4c7b-b5a5-1970e6e0595e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'startSurvey', '&quot;', ')')])[1]/preceding::button[1]</value>
+      <webElementGuid>6d385f61-5664-4280-98d1-acfb6703e64a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Start Survey']/parent::*</value>
+      <webElementGuid>c49e40f0-2c5d-42f1-ac30-99873952e330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>2c9c86df-a4db-412f-a4c9-465dffe51da0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'startSurvey' and @name = 'startSurvey' and (text() = '
+                Start Survey' or . = '
+                Start Survey')]</value>
+      <webElementGuid>038c839c-c18a-45fe-bc22-c99207cd745d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
